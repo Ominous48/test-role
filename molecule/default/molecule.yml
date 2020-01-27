@@ -8,13 +8,13 @@ lint:
 platforms:
   - name: centos7
     image: geerlingguy/docker-centos7-ansible:latest
-    privileged: True
+    privileged: true
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
     command: "/usr/sbin/init"
   - name: debian9
     image: geerlingguy/docker-debian9-ansible:latest
-    privileged: True
+    privileged: true
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
 provisioner:
