@@ -1,0 +1,9 @@
+---
+apache_service: httpd
+apache_daemon: htppd
+
+__apache_packages:
+  - httpd
+  - httpd-devel
+  - mod_ssl
+  - openssh
