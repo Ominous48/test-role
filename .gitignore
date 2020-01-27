@@ -1,1 +1,4 @@
-.tox/
+*/tox
+*.retry
+*/__pycache__
+*.pyc
