@@ -1,7 +1,0 @@
-action: py27-ansible25, msg: getenv
-cwd: /root/tox_test/test-role/test-role/.tox
-cmd: /usr/bin/python -m virtualenv --no-download --python /usr/bin/python py27-ansible25
-Already using interpreter /usr/bin/python
-New python executable in /root/tox_test/test-role/test-role/.tox/py27-ansible25/bin/python
-Installing setuptools, pip, wheel...
-done.
