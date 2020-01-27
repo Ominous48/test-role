@@ -1,9 +1,6 @@
 ---
-apache_service: httpd
-apache_daemon: htppd
+chrony_service: chronyd
+chrony_daemon: chronyd
 
-__apache_packages:
-  - httpd
-  - httpd-devel
-  - mod_ssl
-  - openssh
+__chrony_packages:
+  - chrony

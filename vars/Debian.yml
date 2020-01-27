@@ -1,7 +1,6 @@
 ---
-apache_service: apache2
-apache_daemon: apache2
+chrony_service: chrony
+chrony_daemon: chrony
 
-__apache_packages:
-  - apache2
-  - apache2-utils
+__chrony_packages:
+  - chrony

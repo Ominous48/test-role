@@ -1,5 +1,5 @@
 ---
-- name: Ensure Apache is installed on RHEL.
+- name: Ensure chrony is installed on RHEL.
   package:
-    name: "{{ apache_packages }}"
-    state: "{{ apache_packages_state }}"
+    name: "{{ chrony_packages }}"
+    state: "{{ chrony_packages_state }}"

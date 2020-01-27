@@ -1,4 +1,4 @@
 ---
-apache_packages_state: present
-apache_restart_state: restarted
-apache_state: started
+chrony_packages_state: present
+chrony_restart_state: restarted
+chrony_state: started
