@@ -1,3 +1,0 @@
-apache_packages_state: present
-apache_restart_state: restarted
-apache_state: started
