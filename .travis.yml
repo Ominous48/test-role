@@ -5,10 +5,12 @@ services:
   - docker
 
 install:
-  - pip install tox
+  - pip install molecule docker
+#  - pip install tox
 
 script:
-  - tox
+#  - tox
+  - molecule test
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
