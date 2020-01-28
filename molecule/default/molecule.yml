@@ -14,12 +14,15 @@ platforms:
     privileged: true
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
-    command: "/usr/sbin/init"
+    pre_build_image: true
+    command: ${MOLECULE_DOCKER_COMMAND:-""}
   - name: debian9
     image: geerlingguy/docker-debian9-ansible:latest
     privileged: true
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
+    pre_build_image: true
+    command: ${MOLECULE_DOCKER_COMMAND:-""}
 provisioner:
   name: ansible
   lint:
